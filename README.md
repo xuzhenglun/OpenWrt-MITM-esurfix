@@ -11,7 +11,7 @@ git 该Repop到OpenWrt源代码文件夹，并执行install.sh脚本。
 2. `sh install.sh`
 3. Target System选择目标架构，Target Profile中选择目标型号
 4. 勾选Network-->Chap-Proxy
-5. 推荐勾选Network-->tcpdump和 Utilities-->lrasz ,方便未来抓包和维护（可选）
+5. 推荐勾选Network-->tcpdump ,Luci-->Collections-->luci和 Utilities-->lrasz ,方便未来抓包和维护（可选）
 6. 退出并保存，运行`make V=99`完成编译
 7. 刷机，重启
 8. 启用WIFI并且设置接口，wan使用PPPoE，用户名为`带前缀的用户名`，密码请输入`stub`
